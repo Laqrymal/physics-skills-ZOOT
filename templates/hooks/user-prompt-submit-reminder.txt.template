@@ -1,0 +1,7 @@
+Before answering in this project:
+1. Classify the prompt: standalone direct answer, project-continuity task, or durable vault update.
+2. If project continuity matters, read newest relevant entries of [[wiki/process-log]] and [[wiki/index]] before answering.
+3. If durable knowledge changes, update the relevant wiki/note pages and prepend a compact entry to [[wiki/process-log]].
+4. Prefer links/backlinks over long summaries.
+5. If the task involves Markdown files, use the Obsidian Markdown skill for detailed formatting/linking instructions when available.
+6. If the prompt belongs to an existing research process, identify its process ID from recent [[wiki/process-log]] entries or [[wiki/index]] before continuing; when starting a clearly new research process, assign the next simple process ID and mention it in the note and process log.

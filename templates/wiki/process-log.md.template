@@ -1,0 +1,17 @@
+---
+type: process-log
+status: active
+created: {{CREATED_DATE}}
+updated: {{CREATED_DATE}}
+---
+
+# Process Log
+
+Newest entries go at the top. Future agents should read only the most recent relevant entries by default, then follow links outward.
+
+## {{CREATED_DATE}} - Vault Initialized
+
+Status: active
+Links: [[index]]
+Summary: Initialized the lightweight Obsidian-first research vault for {{PROJECT_PURPOSE}}. The vault includes separated raw sources, durable wiki pages, research notes, code experiments, outputs, figures, project documentation, and a project-local prompt reminder hook.
+Next: Add the first source, research note, or topic page when the project work begins.

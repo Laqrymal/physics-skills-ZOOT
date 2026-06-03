@@ -1,0 +1,44 @@
+---
+type: project-state
+status: stable
+created: {{CREATED_DATE}}
+updated: {{CREATED_DATE}}
+---
+
+# {{CREATED_DATE}} Initial Vault State
+
+This note records the initial vault system state for {{PROJECT_TITLE}}.
+
+## Initial State Intent
+
+- Preserve the initial vault scaffold and agent behavior as a known-good system state.
+- Keep this state available as a comparison and recovery reference while project work begins.
+- Avoid changing the vault system accidentally while sources, notes, code experiments, outputs, and figures accumulate.
+
+## Project Context
+
+- Purpose: {{PROJECT_PURPOSE}}
+- Domain: {{DOMAIN}}
+- User background and preferred stance: {{USER_BACKGROUND}}
+- Vault balance: {{VAULT_BALANCE}}
+- Explanation style: {{EXPLANATION_STYLE}}
+
+## Tracked System Components
+
+- `AGENTS.md`: project-local operating rules, vault retrieval policy, Obsidian conventions, human-readable naming guidance, workflow policies, and integrity rules.
+- `.codex/hooks.json`: project-local `UserPromptSubmit` hook configuration.
+- `.codex/hooks/vault_context_reminder.py`: hook script that injects the vault context reminder.
+- `hooks/user-prompt-submit-reminder.txt`: hook payload.
+- `wiki/index.md`: navigational map for the vault.
+- `wiki/process-log.md`: newest-first agent memory and current project history.
+- `raw/`, `wiki/topics/`, `wiki/concepts/`, `wiki/methods/`, `wiki/papers/`, `notes/`, `code/`, `outputs/`, and `figures/`: scaffold folders.
+
+## Hook Behavior
+
+The project-local hook should emit a compact `UserPromptSubmit` reminder inside this project and emit nothing outside it. Codex may ask the user to trust the project-local hook.
+
+## How To Use This Initial State
+
+- Use this note as a human-readable reference for the original scaffold.
+- If the user later chooses git baseline pinning, record the branch or tag names here after they are created.
+- Do not treat this note as evidence that git pinning has already happened.

@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/bin/sh -c 'if [ -f .codex/hooks/vault_context_reminder.py ]; then exec /usr/bin/python3 .codex/hooks/vault_context_reminder.py; fi; exit 0'",
+            "timeout": 5,
+            "statusMessage": "Applying vault context reminder"
+          }
+        ]
+      }
+    ]
+  }
+}

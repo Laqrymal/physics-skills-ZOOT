@@ -1,0 +1,38 @@
+---
+type: wiki
+status: seed
+created: {{CREATED_DATE}}
+updated: {{CREATED_DATE}}
+---
+
+# {{PROJECT_TITLE}} Vault Index
+
+This is the navigational map for the project. Start here after reading the newest relevant entries in [[process-log]] when project continuity matters.
+
+## Core Pages
+
+- [[process-log]] - newest-first agent memory for the research journey.
+
+## Active Processes
+
+No active research processes yet. When a new research process starts, assign the next simple process ID, such as `P001`, and add a compact entry here if it helps navigation.
+
+## Wiki Areas
+
+- `wiki/topics/` - broad research areas and long-running themes.
+- `wiki/concepts/` - reusable concepts, definitions, and conceptual building blocks.
+- `wiki/methods/` - algorithms, mathematical tools, workflows, and technical procedures.
+- `wiki/papers/` - durable source-oriented paper pages.
+
+## Working Areas
+
+- `raw/` - immutable sources.
+- `notes/` - research notes, derivations, reading notes, scratch calculations, and speculative ideas.
+- `code/` - scripts, notebooks, toy implementations, numerical experiments, and utilities.
+- `outputs/` - generated tables, exports, summaries, and intermediate results.
+- `figures/` - reusable generated or imported figures.
+- `docs/` - project-level documentation and design specs.
+
+## Current Status
+
+The vault scaffold and project-local prompt-hook files are initialized. The first active task is to begin adding sources, notes, and topic pages as the project develops.
