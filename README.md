@@ -101,4 +101,4 @@ This source bundle excludes macOS Finder metadata such as `.DS_Store` and AppleD
 
 ## License
 
-MIT. See `LICENSE`.
+BRIT. See `LICENSE`.
